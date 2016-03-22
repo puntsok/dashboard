@@ -1,0 +1,54 @@
+
+$rsp-navbar-background-color: rgb(64, 31, 104);
+
+.rsp-navbar {
+
+    opacity: .98;
+    font-family: 'Akkurat Pro Regular';
+    background-color: $rsp-navbar-background-color;
+    @media (max-width: 543px) {
+        height: 54px;
+    }
+
+    &.rsp-hidden {
+        visibility: hidden;
+    }
+    .container {
+        // @include media-breakpoint-down(xs)
+        @media (max-width: 543px) {
+            padding: 0;
+        }
+        .navbar-toggler {
+            background-color: $rsp-navbar-background-color;
+            &.rsp-menu-button {
+                margin-left: -1rem;
+            }
+            &.rsp-profile-button {
+                margin-right: -0.8rem;
+            }
+        }
+        .collapse {
+            .navbar-brand {
+                margin-top: .4em;
+            }
+            .navbar-nav {
+                .nav-item {
+                    margin-top: .55em;
+                }
+            }
+            .rsp-avatar {
+                display: inline-block;
+                height: 50px;
+                width: 50px;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 50%;
+            }
+        }
+        .rsp-navbar-title {
+          a {
+            color: inherit;
+          }
+        }
+    }
+}

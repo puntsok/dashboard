@@ -1,0 +1,452 @@
+{
+    "status": "success",
+    "data": {
+        "apps": [
+            {
+                "id": 1,
+                "category_id": 1,
+                "name": "Early Arrival App",
+                "slug": "early-arrival-app",
+                "image_url": "http://lorempixel.com/640/480/?77162",
+                "app_url": "http://www.google.com",
+                "description": "Request to arrive prior to the fall move-in date",
+                "sort": 1
+            },
+            {
+                "id": 2,
+                "category_id": 1,
+                "name": "Late Stay App",
+                "slug": "late-stay-app",
+                "image_url": "http://lorempixel.com/640/480/?14792",
+                "app_url": "http://www.google.com",
+                "description": "Request to stay after the move-out date at the end of any quarter",
+                "sort": 2
+            },
+            {
+                "id": 3,
+                "category_id": 1,
+                "name": "Check-in App",
+                "slug": "check-in-app",
+                "image_url": "http://lorempixel.com/640/480/?76494",
+                "app_url": "http://www.google.com",
+                "description": "Check-in to your residence hall",
+                "sort": 3
+            },
+            {
+                "id": 4,
+                "category_id": 1,
+                "name": "Check-out App",
+                "slug": "check-out-app",
+                "image_url": "http://lorempixel.com/640/480/?60833",
+                "app_url": "http://www.google.com",
+                "description": "Check-out of your residence hall",
+                "sort": 4
+            },
+            {
+                "id": 5,
+                "category_id": 1,
+                "name": "Holiday Stay App",
+                "slug": "holiday-stay-app",
+                "image_url": "http://lorempixel.com/640/480/?95802",
+                "app_url": "http://www.google.com",
+                "description": "Request to stay over the winter break",
+                "sort": 5
+            },
+            {
+                "id": 6,
+                "category_id": 2,
+                "name": "Returning Student Application",
+                "slug": "returning-student-application",
+                "image_url": "http://lorempixel.com/640/480/?15806",
+                "app_url": "http://www.google.com",
+                "description": "Current on campus residents contract for housing",
+                "sort": 6
+            },
+            {
+                "id": 7,
+                "category_id": 2,
+                "name": "New Student Application",
+                "slug": "new-student-application",
+                "image_url": "http://lorempixel.com/640/480/?78206",
+                "app_url": "http://www.google.com",
+                "description": "Incoming new students contract for housing",
+                "sort": 7
+            },
+            {
+                "id": 8,
+                "category_id": 2,
+                "name": "Winter Application",
+                "slug": "winter-application",
+                "image_url": "http://lorempixel.com/640/480/?77097",
+                "app_url": "http://www.google.com",
+                "description": "Housing contract for students arriving in Winter Quarter",
+                "sort": 8
+            },
+            {
+                "id": 9,
+                "category_id": 2,
+                "name": "Spring Application",
+                "slug": "spring-application",
+                "image_url": "http://lorempixel.com/640/480/?61116",
+                "app_url": "http://www.google.com",
+                "description": "Housing contract for students arriving in Spring Quarter",
+                "sort": 9
+            },
+            {
+                "id": 10,
+                "category_id": 2,
+                "name": "Summer Application",
+                "slug": "summer-application",
+                "image_url": "http://lorempixel.com/640/480/?96252",
+                "app_url": "http://www.google.com",
+                "description": "Housing contract for students arriving for Summer Quarter",
+                "sort": 10
+            },
+            {
+                "id": 11,
+                "category_id": 2,
+                "name": "Grad Housing Application",
+                "slug": "grad-housing-application",
+                "image_url": "http://lorempixel.com/640/480/?14482",
+                "app_url": "http://www.google.com",
+                "description": "Housing contract for Graduate Housing ",
+                "sort": 11
+            },
+            {
+                "id": 12,
+                "category_id": 2,
+                "name": "Residential College Intent to Return Form",
+                "slug": "residential-college-intent-to-return-form",
+                "image_url": "http://lorempixel.com/640/480/?31507",
+                "app_url": "http://www.google.com",
+                "description": "Current resident form to return to a Residential College the next academic year",
+                "sort": 12
+            },
+            {
+                "id": 13,
+                "category_id": 3,
+                "name": "Reporting",
+                "slug": "reporting",
+                "image_url": "http://lorempixel.com/640/480/?91867",
+                "app_url": "http://www.google.com",
+                "description": "No description currently for this function",
+                "sort": 13
+            },
+            {
+                "id": 14,
+                "category_id": 3,
+                "name": "Dashboard",
+                "slug": "dashboard",
+                "image_url": "http://lorempixel.com/640/480/?37095",
+                "app_url": "http://www.google.com",
+                "description": "No description currently for this function",
+                "sort": 14
+            },
+            {
+                "id": 15,
+                "category_id": 4,
+                "name": "Room Change Request",
+                "slug": "room-change-request",
+                "image_url": "http://lorempixel.com/640/480/?83416",
+                "app_url": "http://www.google.com",
+                "description": "Request to change rooms",
+                "sort": 15
+            },
+            {
+                "id": 16,
+                "category_id": 4,
+                "name": "Maintenance Request",
+                "slug": "maintenance-request",
+                "image_url": "http://lorempixel.com/640/480/?54597",
+                "app_url": "http://www.google.com",
+                "description": "Submit a work order for a needed repair",
+                "sort": 16
+            },
+            {
+                "id": 17,
+                "category_id": 4,
+                "name": "Key Activation",
+                "slug": "key-activation",
+                "image_url": "http://lorempixel.com/640/480/?13475",
+                "app_url": "http://www.google.com",
+                "description": "Activate access to your residence hall room via your Wildcard",
+                "sort": 17
+            },
+            {
+                "id": 18,
+                "category_id": 4,
+                "name": "Laundry View",
+                "slug": "laundry-view",
+                "image_url": "http://lorempixel.com/640/480/?69084",
+                "app_url": "http://www.google.com",
+                "description": "View available laundry machines in your residence hall",
+                "sort": 18
+            },
+            {
+                "id": 19,
+                "category_id": 4,
+                "name": "Mail Forwarding App",
+                "slug": "mail-forwarding-app",
+                "image_url": "http://lorempixel.com/640/480/?52966",
+                "app_url": "http://www.google.com",
+                "description": "submit your summer or fall address for mail forwarding",
+                "sort": 19
+            },
+            {
+                "id": 20,
+                "category_id": 4,
+                "name": "Update Emergency Contact",
+                "slug": "update-emergency-contact",
+                "image_url": "http://lorempixel.com/640/480/?61026",
+                "app_url": "http://www.google.com",
+                "description": "Update emergency contact information",
+                "sort": 20
+            },
+            {
+                "id": 21,
+                "category_id": 4,
+                "name": "Neighborhood Desk Amenity Request/Inventory View",
+                "slug": "neighborhood-desk-amenity-request-inventory-view",
+                "image_url": "http://lorempixel.com/640/480/?30385",
+                "app_url": "http://www.google.com",
+                "description": "View and request use of community amenities such as vacuums, etc.",
+                "sort": 21
+            },
+            {
+                "id": 22,
+                "category_id": 5,
+                "name": "Room/Building Rosters",
+                "slug": "room-building-rosters",
+                "image_url": "http://lorempixel.com/640/480/?24993",
+                "app_url": "http://www.google.com",
+                "description": "Resident rosters broken down by building and room",
+                "sort": 22
+            },
+            {
+                "id": 23,
+                "category_id": 5,
+                "name": "Resident Look-up",
+                "slug": "resident-look-up",
+                "image_url": "http://lorempixel.com/640/480/?90826",
+                "app_url": "http://www.google.com",
+                "description": "Look up specific information on a resident",
+                "sort": 23
+            },
+            {
+                "id": 24,
+                "category_id": 5,
+                "name": "Greek Rosters",
+                "slug": "greek-rosters",
+                "image_url": "http://lorempixel.com/640/480/?87802",
+                "app_url": "http://www.google.com",
+                "description": "Look up rosters in Greek houses",
+                "sort": 24
+            },
+            {
+                "id": 25,
+                "category_id": 5,
+                "name": "Non-res Rosters",
+                "slug": "non-res-rosters",
+                "image_url": "http://lorempixel.com/640/480/?27008",
+                "app_url": "http://www.google.com",
+                "description": "Look up non-residential residents for Residential Colleges",
+                "sort": 25
+            },
+            {
+                "id": 26,
+                "category_id": 5,
+                "name": "Banned Residents",
+                "slug": "banned-residents",
+                "image_url": "http://lorempixel.com/640/480/?12369",
+                "app_url": "http://www.google.com",
+                "description": "Look up students banned from residence halls",
+                "sort": 26
+            },
+            {
+                "id": 27,
+                "category_id": 6,
+                "name": "RA Manual",
+                "slug": "ra-manual",
+                "image_url": "http://lorempixel.com/640/480/?81415",
+                "app_url": "http://www.google.com",
+                "description": "Review and download the RA manual",
+                "sort": 27
+            },
+            {
+                "id": 28,
+                "category_id": 6,
+                "name": "Duty Manual",
+                "slug": "duty-manual",
+                "image_url": "http://lorempixel.com/640/480/?93011",
+                "app_url": "http://www.google.com",
+                "description": "Review and download the Duty manual",
+                "sort": 28
+            },
+            {
+                "id": 29,
+                "category_id": 6,
+                "name": "Programming/Budget Database",
+                "slug": "programming-budget-database",
+                "image_url": "http://lorempixel.com/640/480/?40333",
+                "app_url": "http://www.google.com",
+                "description": "Review, submit, and track all programming information",
+                "sort": 29
+            },
+            {
+                "id": 30,
+                "category_id": 6,
+                "name": "Program Calendar",
+                "slug": "program-calendar",
+                "image_url": "http://lorempixel.com/640/480/?29807",
+                "app_url": "http://www.google.com",
+                "description": "Review upcoming residence hall programs",
+                "sort": 30
+            },
+            {
+                "id": 31,
+                "category_id": 6,
+                "name": "Incident Form Submission",
+                "slug": "incident-form-submission",
+                "image_url": "http://lorempixel.com/640/480/?36420",
+                "app_url": "http://www.google.com",
+                "description": "Submit an incident report",
+                "sort": 31
+            },
+            {
+                "id": 32,
+                "category_id": 6,
+                "name": "Duty Log Submission",
+                "slug": "duty-log-submission",
+                "image_url": "http://lorempixel.com/640/480/?41834",
+                "app_url": "http://www.google.com",
+                "description": "Submit daily duty log reports",
+                "sort": 32
+            },
+            {
+                "id": 33,
+                "category_id": 6,
+                "name": "Online Training Courses",
+                "slug": "online-training-courses",
+                "image_url": "http://lorempixel.com/640/480/?22524",
+                "app_url": "http://www.google.com",
+                "description": "Complete required online training courses",
+                "sort": 33
+            },
+            {
+                "id": 34,
+                "category_id": 7,
+                "name": "Reservation Request Machform",
+                "slug": "reservation-request-machform",
+                "image_url": "http://lorempixel.com/640/480/?67293",
+                "app_url": "http://www.google.com",
+                "description": "Review Residential Services Room Reservation policy and submit a request",
+                "sort": 34
+            },
+            {
+                "id": 35,
+                "category_id": 7,
+                "name": "Calendar of Events",
+                "slug": "calendar-of-events",
+                "image_url": "http://lorempixel.com/640/480/?52821",
+                "app_url": "http://www.google.com",
+                "description": "Review current room reservations",
+                "sort": 35
+            },
+            {
+                "id": 36,
+                "category_id": 8,
+                "name": "Machform Administration",
+                "slug": "machform-administration",
+                "image_url": "http://lorempixel.com/640/480/?29331",
+                "app_url": "http://www.google.com",
+                "description": "Link to admin site for all Machforms",
+                "sort": 36
+            },
+            {
+                "id": 37,
+                "category_id": 9,
+                "name": "Contract Reports",
+                "slug": "contract-reports",
+                "image_url": "http://lorempixel.com/640/480/?91631",
+                "app_url": "http://www.google.com",
+                "description": "Retrieve/review contract reports",
+                "sort": 37
+            },
+            {
+                "id": 38,
+                "category_id": 9,
+                "name": "Occupancy Reports",
+                "slug": "occupancy-reports",
+                "image_url": "http://lorempixel.com/640/480/?53715",
+                "app_url": "http://www.google.com",
+                "description": "Retrieve/review occupancy reports",
+                "sort": 38
+            }
+        ],
+        "categories": [
+            {
+                "id": 1,
+                "name": "Opening/Closing",
+                "slug": "opening-closing",
+                "description": "Opening or Closing of the Residence Halls",
+                "sort": 1
+            },
+            {
+                "id": 2,
+                "name": "Housing Selection",
+                "slug": "housing-selection",
+                "description": "Complete the Housing Contract or related documents to live on campus",
+                "sort": 2
+            },
+            {
+                "id": 3,
+                "name": "Financials",
+                "slug": "financials",
+                "description": "View Housing financial reports",
+                "sort": 3
+            },
+            {
+                "id": 4,
+                "name": "Student Services",
+                "slug": "student-services",
+                "description": "Services for current on campus residents",
+                "sort": 4
+            },
+            {
+                "id": 5,
+                "name": "Student Look-up",
+                "slug": "student-look-up",
+                "description": "Find information related to a resident’s current living location",
+                "sort": 5
+            },
+            {
+                "id": 6,
+                "name": "Staff Resources",
+                "slug": "staff-resources",
+                "description": "Resources for RAs or RDs in their jobs",
+                "sort": 6
+            },
+            {
+                "id": 7,
+                "name": "Room Reservation Requests",
+                "slug": "room-reservation-requests",
+                "description": "Request the use of Residential Services available spaces",
+                "sort": 7
+            },
+            {
+                "id": 8,
+                "name": "Machform administration",
+                "slug": "machform-administration",
+                "description": "Access Machform administrative site",
+                "sort": 8
+            },
+            {
+                "id": 9,
+                "name": "RMS reporting",
+                "slug": "rms-reporting",
+                "description": "Access to all RMS reports",
+                "sort": 9
+            }
+        ]
+    }
+}

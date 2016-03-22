@@ -1,0 +1,56 @@
+
+// .rsp-mobile-scroll-panel::-webkit-scrollbar {
+//     width: 0px;
+// }
+
+.rsp-mobile-scroll-panel {
+  font-family: 'Akkurat Pro Regular';
+  position: fixed;
+  top: 54px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  opacity: .9;
+  z-index: 1020;
+  height: 54px;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  padding: 16px 16px 0 16px;
+  cursor: ew-resize;
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+
+  .rsp-indicator {
+    position: absolute;
+    background-color: #C0B8C9;
+    transition: 0.3s all ease-in-out;
+    bottom: 0;
+    height: 5px;
+
+    // width: 100px;
+    // left: 400px;
+  }
+
+  div {
+    white-space: nowrap;
+    // padding: 0px 6px;
+    // background-color: green;
+    height: 54px;
+    display: inline;
+    // align-items: center;
+    span {
+      // background-color: orange;
+      padding: 16px 6px;
+      border-left: 1px solid #484848;
+      &.data-active-true {
+        // background-color: #250748;
+        // border-top: 3px solid #BBB2C5;
+      }
+    }
+  }
+  div:last-child span {
+    border-right: 1px solid #484848;
+  }
+}

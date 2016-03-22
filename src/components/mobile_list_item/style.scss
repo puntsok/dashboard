@@ -1,0 +1,42 @@
+
+.rsp-mobile-list-item {
+  background-color: #D9D2DA;
+  margin: 8px 5px;
+  font-family: 'Akkurat Pro Regular';
+  cursor: pointer;
+  border: 1px solid #636363;
+
+  > .image-meta {
+    height: 86px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+    > .image {
+      width: 128px;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    > .meta {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 16px 0 10px;
+      flex: 1;
+      background-color: #F2EDF7;
+
+      > .title {
+        font-family: 'Campton Bold';
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  > .description {
+    font-size: .8rem;
+    background-color: #D3D0D8;
+    color: black;
+    padding: 4px 8px;
+  }
+}

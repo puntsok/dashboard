@@ -1,0 +1,63 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+// $fa-font-path: "~font-awesome/fonts";
+// @import "~font-awesome/scss/font-awesome";
+
+@font-face {
+    font-family: 'Akkurat Pro Regular';
+    src: url('https://common.northwestern.edu/v8/css/fonts/AkkuratProRegular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Akkurat Pro Bold';
+    src: url('https://common.northwestern.edu/v8/css/fonts/AkkuratProBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Campton Bold';
+    src: url('https://common.northwestern.edu/v8/css/fonts/CamptonBold.woff') format('woff');
+}
+
+html body {
+    background-color: #1A0D29;
+}
+
+
+// experiment with break points:
+
+
+html {
+    body {
+        // background-color: white;
+    }
+}
+
+@include media-breakpoint-down(lg) {
+    html {
+        body {
+            // background-color: yellow;
+        }
+    }
+}
+
+@include media-breakpoint-down(md) {
+    html {
+        body {
+            // background-color: lightgreen;
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    html {
+        body {
+            // background-color: lightblue;
+        }
+    }
+}
+
+@include media-breakpoint-down(xs) {
+    html {
+        body {
+            // background-color: pink;
+        }
+    }
+}
